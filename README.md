@@ -10,8 +10,7 @@
 
 4. Push the above changes to GitHub or GitLab.
 
-<!--![surfs-up.png](images/surfs-up.png)-->
-<img width="495" alt="dec_plot" src="https://github.com/gndede/edna/blob/main/surfs-up.png">
+![Frequency](https://user-images.githubusercontent.com/22300710/143784753-d70b0b63-3a3a-4b76-9179-9a54704429df.png)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
