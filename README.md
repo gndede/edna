@@ -77,7 +77,11 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](images/precipitation.png)
+  <!--![precipitation](images/precipitation.png)-->
+  
+ <img width="673" alt="daily_normals" src="https://user-images.githubusercontent.com/22300710/143785114-955556d0-90fb-4c86-b365-d2594d737636.png">
+
+<img width="176" alt="precip_stats" src="https://user-images.githubusercontent.com/22300710/143785116-efb5a9d9-9faf-490c-aa2b-5f1c4b87daa8.png">
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
