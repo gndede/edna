@@ -146,6 +146,10 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
+
+<img width="673" alt="daily_normals" src="https://user-images.githubusercontent.com/22300710/143785022-bfc1e764-4948-418e-bbc5-b81459b1fe81.png">
+
+
 ## Hints
 
 * You will need to join the station and measurement tables for some of the queries.
@@ -159,6 +163,9 @@ Now that you have completed your initial analysis, design a Flask API based on t
 * The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
 
 * Use the provided [temp_analysis_bonus_1_starter.ipynb](temp_analysis_bonus_1_starter.ipynb) and [temp_analysis_bonus_1_starter](temp_analysis_bonus_2_starter.ipynb) starter notebooks for each bonus challenge.
+
+<img width="675" alt="precip" src="https://user-images.githubusercontent.com/22300710/143785014-15c91551-5009-4163-8be5-97fb042b684f.png">
+
 
 ### Temperature Analysis I
 
@@ -175,6 +182,8 @@ Now that you have completed your initial analysis, design a Flask API based on t
 * Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
 
 * Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+
+![June vs December Scatter Plot](https://user-images.githubusercontent.com/22300710/143784994-a3571a2e-7218-4f1a-8873-6a4cea41d8a9.png)
 
 ### Temperature Analysis II
 
@@ -193,6 +202,8 @@ Now that you have completed your initial analysis, design a Flask API based on t
   * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
     ![temperature](images/temperature.png)
+    <img width="390" alt="temp_avg" src="https://user-images.githubusercontent.com/22300710/143784938-7e308e9b-e703-4296-8bde-ceed1f24950f.png">
+
 
 ### Daily Rainfall Average
 
@@ -230,6 +241,10 @@ Before making a final deicision though, I would want to perform some additional 
 <img width="656" alt="station_temps" src="https://user-images.githubusercontent.com/77628698/121732019-af16bf80-cabf-11eb-90b5-a7918402c3b7.png">
 
 2. Secondly, I would like to review other important variables that are correlated with optimal beach and surfing weather. Sunch varibles include precipitation, wave swells and wind condition. Though there may be some contrasting optimal conditions based on surfing vs sunbathing, it is important to identify those conditions and see how they correlate to foot traffic to the beach (depending on the time of year). It would be foolish to only value temperatures as the key indicator for opening a business. 
+
+![June vs December Scatter Plot](https://user-images.githubusercontent.com/22300710/143785039-3dbd58da-f571-478a-86d2-514f0f62dcfd.png)
+
+
 * Close out your session.
 
 ### Copyright
