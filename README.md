@@ -15,6 +15,41 @@
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
+
+# surfs_up
+Advanced Data Storage and Retrieval with `Jupyter Notebook`, `SQLite` and `SQLAlchemy`
+
+## CHALLENGE OVERVIEW
+---
+This project explores the power of Advanced Data Storage and Retrieval to efficently produce an analyis of temperature trends in Oahu, Hawaii. Specifically, summary statistics of temperature data were requested for the months of June and December, in order to determine if a prospective surf and ice cream shop business can sustainably operate year-round as opposed to a seasonal business. 
+
+## FEATURES AND DATA SOURCES
+- Data Source: `hawaii.sqlite`
+- Programming Files: `SurfsUp_Challenge.ipynb`, `climate_analysis.ipynb`
+-  Data Tools: `Python SQL toolkit (SQLAlchemy)`, `Object Relational Mapper`, `pandas`, `numpy`
+-  Software: SQLlite, Python 3.9.2, Flask, Jupyter Notebook
+
+## Challenge Deliverables
+Deliverable 1: Determine the Summary Statistics for June
+Deliverable 2: Determine the Summary Statistics for December
+Deliverable 3: A written report for the statistical analysis (README.md)
+
+## Results
+---
+- _Summary Statistics DataFrame: June vs December Temperatures_
+
+<img width="509" alt="summary_stats_df" src="https://user-images.githubusercontent.com/77628698/121727758-52fd6c80-caba-11eb-8e12-33676aa48ae8.png">
+
+- _June Recorded Temps Visualization (Temperature and Frequency)_
+
+<img width="503" alt="june_plot" src="https://user-images.githubusercontent.com/77628698/121729372-63aee200-cabc-11eb-81ad-075fa0e35b82.png">
+
+- _December Recorded Temps Visualization (Temperature and Frequency)_
+
+<img width="495" alt="dec_plot" src="https://user-images.githubusercontent.com/77628698/121729393-69a4c300-cabc-11eb-853a-667622c4c960.png">
+
+
+
 ## Step 1 - Climate Analysis and Exploration
 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
